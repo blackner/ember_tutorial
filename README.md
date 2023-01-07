@@ -1,2 +1,2 @@
 # ember_tutorial
-ember.js tutorial
+Follow the ember.js tutorial and implement the "Super Rentals" project
