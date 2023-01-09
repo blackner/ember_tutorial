@@ -20,7 +20,15 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
+Start the backend by cloning the [super_rentals_backend](https://github.com/blackner/super_rentals_backend) repository and following the included README.
+`cd` into this repository. Run
+
+```shell
+ember server --proxy http://localhost:3000
+```
+
+Which proxies to the local rails backend at port 3000. 
+
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
@@ -42,10 +50,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
